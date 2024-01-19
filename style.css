@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: khaki;
+}
+
+
+article{
+  border: solid 1px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+img{
+  width: 200px;
+
+}
+
+div{
+  height: 200px;
+
+}
+
+#popup {
+  margin-top: 200px;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+  background-color: darkseagreen;
+  gap: 50px;
+}
+
+ div button {
+  border: none;
+  background-color: blue;
+  color: black;
+  margin-bottom: 340px;
+}
